@@ -125,13 +125,8 @@
 			children = (
 				C01CBF5718B0336300A30271 /* AppDelegate.h */,
 				C01CBF5818B0336300A30271 /* AppDelegate.m */,
-				C01CBF5A18B0336300A30271 /* Main.storyboard */,
-				C01CBF6018B0336300A30271 /* MasterViewController.h */,
-				C01CBF6118B0336300A30271 /* MasterViewController.m */,
-				C01CBF6318B0336300A30271 /* DetailViewController.h */,
-				C01CBF6418B0336300A30271 /* DetailViewController.m */,
-				C01CBF6618B0336300A30271 /* Images.xcassets */,
-				C01CBF5D18B0336300A30271 /* ControllingSource.xcdatamodeld */,
+				C081952F18B03AB900EFB9F0 /* Resources */,
+				C081952E18B03A6300EFB9F0 /* View Controllers */,
 				C01CBF4F18B0336300A30271 /* Supporting Files */,
 			);
 			path = ControllingSource;
@@ -141,9 +136,9 @@
 			isa = PBXGroup;
 			children = (
 				C01CBF5018B0336300A30271 /* ControllingSource-Info.plist */,
+				C01CBF5618B0336300A30271 /* ControllingSource-Prefix.pch */,
 				C01CBF5118B0336300A30271 /* InfoPlist.strings */,
 				C01CBF5418B0336300A30271 /* main.m */,
-				C01CBF5618B0336300A30271 /* ControllingSource-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,6 +159,27 @@
 				C01CBF7718B0336300A30271 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C081952E18B03A6300EFB9F0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C01CBF6318B0336300A30271 /* DetailViewController.h */,
+				C01CBF6418B0336300A30271 /* DetailViewController.m */,
+				C01CBF6018B0336300A30271 /* MasterViewController.h */,
+				C01CBF6118B0336300A30271 /* MasterViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C081952F18B03AB900EFB9F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C01CBF5D18B0336300A30271 /* ControllingSource.xcdatamodeld */,
+				C01CBF6618B0336300A30271 /* Images.xcassets */,
+				C01CBF5A18B0336300A30271 /* Main.storyboard */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -476,6 +492,7 @@
 				C01CBF8018B0336300A30271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C01CBF8118B0336300A30271 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +501,7 @@
 				C01CBF8318B0336300A30271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
